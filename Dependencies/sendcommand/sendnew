@@ -1,0 +1,32 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+SCREEN_NAME=`cat $DIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SCREEN_NAMERCON=$SCREEN_NAME"RCON"
+screen -ls | grep $SCREEN_NAMERCON >> /dev/null
+if [ $? -ne 0 ] ; then
+	echo Error Error Error Error Error Error Error Error Error Error Error Error Error
+	exit
+fi
+if [ -f $DIR/.TMP/SENDING ] ; then
+	echo Error Error Error Error Error Error Error Error Error Error Error Error Error
+#	killall -q py3
+	rm -f $DIR/.TMP/SENDING
+	exit
+fi
+#读取所有参数
+for ONE in $*
+do
+	if [ "$STR" = "" ] ; then
+		STR=$ONE
+		continue
+	fi
+	STR=$STR" "$ONE
+done
+touch $DIR/.TMP/SENDING
+echo $STR > $DIR/Dependencies/sendcommand/in/input.txt & inotifywait -e modify -qq -t 1 $DIR/Dependencies/sendcommand/out/output.txt
+if [ $? -eq 0 ] ; then
+	head -1 $DIR/Dependencies/sendcommand/out/output.txt
+else
+	echo echo Error Error Error Error Error Error Error Error Error Error Error Error Error
+fi
+rm -f $DIR/.TMP/SENDING
