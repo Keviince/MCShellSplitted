@@ -1,0 +1,34 @@
+#!/bin/bash
+DIR=$( cd "$( dirname "$0" )" && pwd )
+RAWDIR=`cd $DIR/../.. && pwd`
+SCREEN_NAME=`cat $RAWDIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SCREEN_NAMEBILI=$SCREEN_NAME"BILI"$1"TO"$2
+SENDER=`cat $RAWDIR/ENV | grep SENDER | awk '{print $3}'`
+
+rm -f $DIR/logs/$1.log
+screen -X -S $SCREEN_NAMEBILI quit
+screen -dmSU $SCREEN_NAMEBILI $DIR/startnow.sh $1
+
+trap "screen -X -S $SCREEN_NAMEBILI quit ; rm -f $DIR/logs/$1.log" EXIT
+#trap "screen -X -S $SCREEN_NAMEBILI quit" EXIT
+
+sleep 3
+echo "tellraw "$2" {\"text\":\"[$SENDER] 已开启直播弹幕推送！\"}" > $RAWDIR/Dependencies/sendcommand/in/input.txt
+
+while true ; do
+	inotifywait -qq $DIR/logs/$1.log
+	if [ $? -eq 0 ] ; then
+		tail -1 $DIR/logs/$1.log | grep " | " >> /dev/null
+		if [ $? -eq 0 ] ; then
+			NAME=`tail -1 $DIR/logs/$1.log | cut -d ':' -f 1 | cut -d '-' -f 3- | sed s/[[:space:]]//g`
+			CONTENT=`tail -1 $DIR/logs/$1.log | cut -d ':' -f 2- | sed 's/^[ \t]*//g'`
+			MESSAGEA=$NAME"-"$CONTENT
+			if [ "$MESSAGEB" = "" ] ; then
+				MESSAGEB=$MESSAGEA
+			elif [ "$MESSAGEB" = "$MESSAGEA" ] ; then
+				continue
+			fi
+			echo "tellraw "$2" {\"text\":\"<$NAME(BiliBili)> $CONTENT\"}" > $RAWDIR/Dependencies/sendcommand/in/input.txt
+		fi
+	fi
+done
