@@ -1,0 +1,21 @@
+#!/bin/sh
+PDIR=`cd "$( dirname "$0" )" && pwd`
+RAWDIR=`cd $PDIR/.. && pwd`
+SDIR=`cd $RAWDIR/Server && pwd`
+SENDER=`cat $RAWDIR/ENV | grep SENDER | awk '{print $3}'`
+SCREEN_NAME=`cat $RAWDIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+tail -1 $PDIR/latest.log | grep "joined the game" >> /dev/null
+if [ $? -eq 0 ] ; then
+	NAME=$( tail -1 $PDIR/latest.log | grep "joined the game" | awk '{print $4}' )
+	cat $RAWDIR/Data/linkmembers.txt | grep $NAME >> /dev/null
+	if [ $? -eq 0 ] ; then
+		exit
+	else
+		SCREEN_NAMEKICK=$SCREEN_NAME"KICK"$NAME
+		sleep 1
+		$RAWDIR/send "tellraw $NAME {\"text\":\"[$SENDER] 欢迎来到冒险者大陆服务器！请加官方QQ群：339821483\"}" >> /dev/null
+		$RAWDIR/send "tellraw $NAME {\"text\":\"[$SENDER] 请输入\\\"!!link+空格+你的QQ号\\\"来绑定你的QQ号到游戏ID\"}" >> /dev/null
+		$RAWDIR/send "tellraw $NAME {\"text\":\"[$SENDER] 请在60秒内绑定，否则你将会被踢出服务器\"}" >> /dev/null
+		screen -dmSU $SCREEN_NAMEKICK $RAWDIR/Dependencies/timeoutkick.sh $NAME
+	fi
+fi

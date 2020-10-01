@@ -1,0 +1,648 @@
+[2020-06-16 19:45:04] MobSwitch Threshold
+There are 2 of a max 50 players online: RoronoaZorozhang, Anchoret
+RoronoaZorozhang 在 主世界 的 -1401 70 988
+Anchoret 在 主世界 的 -140 211 275
+[2020-06-16 19:45:38] MobSwitch Threshold
+There are 2 of a max 50 players online: RoronoaZorozhang, Anchoret
+RoronoaZorozhang 在 主世界 的 -1405 72 993
+Anchoret 在 主世界 的 -135 196 270
+[2020-06-16 19:51:40] Restart Threshold
+There are 3 of a max 50 players online: RoronoaZorozhang, Anchoret, Nya_Vanilla
+RoronoaZorozhang 在 主世界 的 -1404 72 993
+Nya_Vanilla 在 主世界 的 25766 192 -5234
+[2020-06-18 10:37:02] Restart Threshold
+qwk_lk has the following entity data: [-14423.699250226913d, 141.0d, 24631.30000001192d]There are 3 of a max 50 players online: JiSuhonghong, JACKAYAMI, qwk_lk
+JiSuhonghong 在 主世界 的 14238 11 10679
+JACKAYAMI 在 主世界 的 -1434 63 1055
+qwk_lk 在 主世界 的 -14423 141 24631
+[2020-06-19 18:01:03] MobSwitch Threshold
+JiSuhonghong has the following entity data: [14162.699999988079d, 11.0d, 10678.628354333996d]There are 3 of a max 50 players online: hqqaazz, Yuezheng_Ling, JiSuhonghong
+hqqaazz 在 地狱 的 -1689 241 3901
+Yuezheng_Ling 在 主世界 的 -6201 60 35885
+JiSuhonghong 在 主世界 的 14162 11 10678
+There are several suitable screens on:
+	7870.MainlandLOC	(Detached)
+	6774.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-06-19 20:01:02] Restart Threshold
+There are 3 of a max 50 players online: hqqaazz, Yuezheng_Ling, JACKAYAMI
+Yuezheng_Ling 在 主世界 的 entity ata: -1
+JACKAYAMI 在 主世界 的
+There are several suitable screens on:
+	16169.MainlandLOC	(Detached)
+	14396.MainlandLOC	(Detached)
+	26048.MainlandLOC	(Detached)
+	5232.MainlandLOC	(Detached)
+	17297.MainlandLOC	(Detached)
+	29072.MainlandLOC	(Detached)
+	8507.MainlandLOC	(Detached)
+	20280.MainlandLOC	(Detached)
+	32076.MainlandLOC	(Detached)
+	11494.MainlandLOC	(Detached)
+	23287.MainlandLOC	(Detached)
+	2726.MainlandLOC	(Detached)
+	14853.MainlandLOC	(Detached)
+	26668.MainlandLOC	(Detached)
+	6146.MainlandLOC	(Detached)
+	17984.MainlandLOC	(Detached)
+	29813.MainlandLOC	(Detached)
+	9232.MainlandLOC	(Detached)
+	21242.MainlandLOC	(Detached)
+	861.MainlandLOC	(Detached)
+	12917.MainlandLOC	(Detached)
+	25227.MainlandLOC	(Detached)
+	4860.MainlandLOC	(Detached)
+	16856.MainlandLOC	(Detached)
+	28855.MainlandLOC	(Detached)
+	8370.MainlandLOC	(Detached)
+	20405.MainlandLOC	(Detached)
+	32468.MainlandLOC	(Detached)
+	12143.MainlandLOC	(Detached)
+	24212.MainlandLOC	(Detached)
+	4175.MainlandLOC	(Detached)
+	16248.MainlandLOC	(Detached)
+	23712.MainlandLOC	(Detached)
+	3364.MainlandLOC	(Detached)
+	15363.MainlandLOC	(Detached)
+	27306.MainlandLOC	(Detached)
+	6883.MainlandLOC	(Detached)
+	18977.MainlandLOC	(Detached)
+	31406.MainlandLOC	(Detached)
+	11132.MainlandLOC	(Detached)
+	23022.MainlandLOC	(Detached)
+	2770.MainlandLOC	(Detached)
+	14890.MainlandLOC	(Detached)
+	27026.MainlandLOC	(Detached)
+	6575.MainlandLOC	(Detached)
+	18662.MainlandLOC	(Detached)
+	30877.MainlandLOC	(Detached)
+	11009.MainlandLOC	(Detached)
+	23198.MainlandLOC	(Detached)
+	2687.MainlandLOC	(Detached)
+	14763.MainlandLOC	(Detached)
+	26832.MainlandLOC	(Detached)
+	6567.MainlandLOC	(Detached)
+	18683.MainlandLOC	(Detached)
+	30796.MainlandLOC	(Detached)
+	10547.MainlandLOC	(Detached)
+	23012.MainlandLOC	(Detached)
+	2798.MainlandLOC	(Detached)
+	14931.MainlandLOC	(Detached)
+	27068.MainlandLOC	(Detached)
+	6856.MainlandLOC	(Detached)
+	18920.MainlandLOC	(Detached)
+	30814.MainlandLOC	(Detached)
+	10697.MainlandLOC	(Detached)
+	23279.MainlandLOC	(Detached)
+	3159.MainlandLOC	(Detached)
+	15400.MainlandLOC	(Detached)
+	27643.MainlandLOC	(Detached)
+	7537.MainlandLOC	(Detached)
+	19819.MainlandLOC	(Detached)
+	32122.MainlandLOC	(Detached)
+	12025.MainlandLOC	(Detached)
+	24265.MainlandLOC	(Detached)
+	4527.MainlandLOC	(Detached)
+	16838.MainlandLOC	(Detached)
+	29150.MainlandLOC	(Detached)
+	9098.MainlandLOC	(Detached)
+	21415.MainlandLOC	(Detached)
+	1358.MainlandLOC	(Detached)
+	13714.MainlandLOC	(Detached)
+	26091.MainlandLOC	(Detached)
+	6024.MainlandLOC	(Detached)
+	18657.MainlandLOC	(Detached)
+	30980.MainlandLOC	(Detached)
+	10726.MainlandLOC	(Detached)
+	23094.MainlandLOC	(Detached)
+	3029.MainlandLOC	(Detached)
+	15345.MainlandLOC	(Detached)
+	27647.MainlandLOC	(Detached)
+	7599.MainlandLOC	(Detached)
+	20019.MainlandLOC	(Detached)
+	32254.MainlandLOC	(Detached)
+	8082.MainlandLOC	(Detached)
+	19860.MainlandLOC	(Detached)
+	32268.MainlandLOC	(Detached)
+	11996.MainlandLOC	(Detached)
+	24130.MainlandLOC	(Detached)
+	4040.MainlandLOC	(Detached)
+	16676.MainlandLOC	(Detached)
+	28826.MainlandLOC	(Detached)
+	8767.MainlandLOC	(Detached)
+	21070.MainlandLOC	(Detached)
+	986.MainlandLOC	(Detached)
+	13649.MainlandLOC	(Detached)
+	25991.MainlandLOC	(Detached)
+	5991.MainlandLOC	(Detached)
+	18395.MainlandLOC	(Detached)
+	30749.MainlandLOC	(Detached)
+	10760.MainlandLOC	(Detached)
+	23461.MainlandLOC	(Detached)
+	3517.MainlandLOC	(Detached)
+	15951.MainlandLOC	(Detached)
+	28387.MainlandLOC	(Detached)
+	8467.MainlandLOC	(Detached)
+	20848.MainlandLOC	(Detached)
+	31534.MainlandLOC	(Detached)
+	11447.MainlandLOC	(Detached)
+	23560.MainlandLOC	(Detached)
+	3511.MainlandLOC	(Detached)
+	15963.MainlandLOC	(Detached)
+	27919.MainlandLOC	(Detached)
+	7870.MainlandLOC	(Detached)
+	6774.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-06-21 21:45:02] Restart Threshold
+There are 2 of a max 50 players online: JACKAYAMI, ghaoge
+JACKAYAMI 在 主世界 的 -1466 61 1047
+ghaoge 在 主世界 的 -1456 66 1059
+[2020-06-25 15:41:02] Restart Threshold
+There are 7 of a max 50 players online: zhaixianyu, radishx, JACKAYAMI, ghaoge, Nine_shallow, WangerOrange, Yuezheng_Ling
+zhaixianyu 在 主世界 的 4417 7 -15755
+radishx 在 主世界 的 13375 61 4243
+JACKAYAMI 在 主世界 的 -1419 60 1075
+ghaoge 在 地狱 的 343 115 21
+Nine_shallow 在 主世界 的 9768 17 -5554
+WangerOrange 在 地狱 的 344 115 23
+[2020-07-03 19:32:03] MobSwitch Threshold
+There are 2 of a max 50 players online: hjqsss, Nine_shallow
+hjqsss 在 主世界 的 10361 63 6853
+Nine_shallow 在 主世界 的 9551 61 -5699
+[2020-07-05 11:10:02] Restart Threshold
+There are 2 of a max 50 players online: hjqsss, _Balder
+hjqsss 在 主世界 的 10330 132 6486
+_Balder 在 主世界 的 10474 64 8765
+[2020-07-07 21:27:03] MobSwitch Threshold
+0xAA55 has the following entity data: [5545.274949225093d, 64.0d, 468.77069194485756d]There are 3 of a max 50 players online: Nine_shallow, hjqsss, 0xAA55
+Nine_shallow 在 主世界 的 10034 9 -5896
+hjqsss 在 主世界 的 10170 90 6510
+0xAA55 在 主世界 的 5546 65 470
+There are several suitable screens on:
+	21581.MainlandLOC	(Detached)
+	20648.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-07 23:27:03] Restart Threshold
+JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]JACKAYAMI has the following entity data: [-1458.6678285070884d, 65.76636799395752d, 1060.1967036818228d]There are 3 of a max 50 players online: hjqsss, KilitoKing, JACKAYAMIJACKAYAMI has the following entity data: [-1458.8725086807176d, 65.23152379758702d, 1060.006203476195d]
+hjqsss 在 主世界 的 10293 132 6472
+JACKAYAMI 在 主世界 的 Error3 Error3 Error3
+There are several suitable screens on:
+	3313.MainlandLOC	(Detached)
+	1497.MainlandLOC	(Detached)
+	13319.MainlandLOC	(Detached)
+	24962.MainlandLOC	(Detached)
+	4204.MainlandLOC	(Detached)
+	15473.MainlandLOC	(Detached)
+	26815.MainlandLOC	(Detached)
+	5734.MainlandLOC	(Detached)
+	17652.MainlandLOC	(Detached)
+	29639.MainlandLOC	(Detached)
+	8807.MainlandLOC	(Detached)
+	20467.MainlandLOC	(Detached)
+	31789.MainlandLOC	(Detached)
+	11317.MainlandLOC	(Detached)
+	23222.MainlandLOC	(Detached)
+	2457.MainlandLOC	(Detached)
+	14073.MainlandLOC	(Detached)
+	24971.MainlandLOC	(Detached)
+	4030.MainlandLOC	(Detached)
+	15502.MainlandLOC	(Detached)
+	27038.MainlandLOC	(Detached)
+	6136.MainlandLOC	(Detached)
+	17560.MainlandLOC	(Detached)
+	28677.MainlandLOC	(Detached)
+	7884.MainlandLOC	(Detached)
+	19532.MainlandLOC	(Detached)
+	31142.MainlandLOC	(Detached)
+	10230.MainlandLOC	(Detached)
+	22133.MainlandLOC	(Detached)
+	1355.MainlandLOC	(Detached)
+	13085.MainlandLOC	(Detached)
+	24813.MainlandLOC	(Detached)
+	4302.MainlandLOC	(Detached)
+	15829.MainlandLOC	(Detached)
+	27598.MainlandLOC	(Detached)
+	6898.MainlandLOC	(Detached)
+	18723.MainlandLOC	(Detached)
+	31070.MainlandLOC	(Detached)
+	10904.MainlandLOC	(Detached)
+	23011.MainlandLOC	(Detached)
+	2877.MainlandLOC	(Detached)
+	15072.MainlandLOC	(Detached)
+	26790.MainlandLOC	(Detached)
+	6582.MainlandLOC	(Detached)
+	18995.MainlandLOC	(Detached)
+	31382.MainlandLOC	(Detached)
+	11263.MainlandLOC	(Detached)
+	23069.MainlandLOC	(Detached)
+	2622.MainlandLOC	(Detached)
+	14632.MainlandLOC	(Detached)
+	26770.MainlandLOC	(Detached)
+	6453.MainlandLOC	(Detached)
+	18481.MainlandLOC	(Detached)
+	30606.MainlandLOC	(Detached)
+	10364.MainlandLOC	(Detached)
+	22622.MainlandLOC	(Detached)
+	2752.MainlandLOC	(Detached)
+	15307.MainlandLOC	(Detached)
+	27971.MainlandLOC	(Detached)
+	8040.MainlandLOC	(Detached)
+	20543.MainlandLOC	(Detached)
+	671.MainlandLOC	(Detached)
+	13200.MainlandLOC	(Detached)
+	25763.MainlandLOC	(Detached)
+	5893.MainlandLOC	(Detached)
+	18741.MainlandLOC	(Detached)
+	31305.MainlandLOC	(Detached)
+	11248.MainlandLOC	(Detached)
+	24169.MainlandLOC	(Detached)
+	4346.MainlandLOC	(Detached)
+	16983.MainlandLOC	(Detached)
+	29656.MainlandLOC	(Detached)
+	9899.MainlandLOC	(Detached)
+	22565.MainlandLOC	(Detached)
+	2830.MainlandLOC	(Detached)
+	15455.MainlandLOC	(Detached)
+	28087.MainlandLOC	(Detached)
+	8578.MainlandLOC	(Detached)
+	21176.MainlandLOC	(Detached)
+	1339.MainlandLOC	(Detached)
+	13919.MainlandLOC	(Detached)
+	26530.MainlandLOC	(Detached)
+	6724.MainlandLOC	(Detached)
+	19349.MainlandLOC	(Detached)
+	31981.MainlandLOC	(Detached)
+	12207.MainlandLOC	(Detached)
+	25216.MainlandLOC	(Detached)
+	5457.MainlandLOC	(Detached)
+	18106.MainlandLOC	(Detached)
+	30757.MainlandLOC	(Detached)
+	10983.MainlandLOC	(Detached)
+	23695.MainlandLOC	(Detached)
+	3965.MainlandLOC	(Detached)
+	16656.MainlandLOC	(Detached)
+	29363.MainlandLOC	(Detached)
+	9647.MainlandLOC	(Detached)
+	22714.MainlandLOC	(Detached)
+	2933.MainlandLOC	(Detached)
+	15677.MainlandLOC	(Detached)
+	28491.MainlandLOC	(Detached)
+	8854.MainlandLOC	(Detached)
+	21639.MainlandLOC	(Detached)
+	2029.MainlandLOC	(Detached)
+	14808.MainlandLOC	(Detached)
+	27599.MainlandLOC	(Detached)
+	8294.MainlandLOC	(Detached)
+	21144.MainlandLOC	(Detached)
+	1555.MainlandLOC	(Detached)
+	14357.MainlandLOC	(Detached)
+	27226.MainlandLOC	(Detached)
+	7692.MainlandLOC	(Detached)
+	20649.MainlandLOC	(Detached)
+	948.MainlandLOC	(Detached)
+	13813.MainlandLOC	(Detached)
+	26831.MainlandLOC	(Detached)
+	7313.MainlandLOC	(Detached)
+	20247.MainlandLOC	(Detached)
+	739.MainlandLOC	(Detached)
+	13832.MainlandLOC	(Detached)
+	27897.MainlandLOC	(Detached)
+	8042.MainlandLOC	(Detached)
+	21581.MainlandLOC	(Detached)
+	20648.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-09 17:43:02] MobSwitch Threshold
+rit_A has the following entity data: [9728.300000011921d, 62.0d, -5634.349139082159d]There are 4 of a max 50 players online: Nine_shallow, InoueKotori, rit_A, KilitoKing
+Nine_shallow 在 主世界 的 10055 18 -5923
+InoueKotori 在 主世界 的 12835 64 -439
+rit_A 在 主世界 的 9728 62 -5634
+KilitoKing 在 主世界 的 5838 68 120
+There are several suitable screens on:
+	30231.MainlandLOC	(Detached)
+	29298.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-11 18:15:03] MobSwitch Threshold
+ghaoge has the following entity data: [-1286.738920408586d, 79.0d, 1139.0811301223048d]There are 5 of a max 50 players online: RoronoaZorozhang, JACKAYAMI, ghaoge, kokilu, WangerOrange
+RoronoaZorozhang 在 主世界 的 -1464 65 1060
+JACKAYAMI 在 主世界 的 -1294 85 1142
+ghaoge 在 主世界 的 -1285 80 1139
+kokilu 在 主世界 的 9692 65 -5472
+WangerOrange 在 主世界 的 -1457 64 996
+There are several suitable screens on:
+	31372.MainlandLOC	(Detached)
+	30210.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-13 20:24:03] MobSwitch Threshold
+MOFDBJ has the following entity data: 0There are 5 of a max 50 players online: JACKAYAMI, MOFDBJ, Mouri_Naruto, RoronoaZorozhang, ghaoge
+JACKAYAMI 在 主世界 的 -1170 64 1372
+MOFDBJ 在 主世界 的 10119 137 -5562
+Mouri_Naruto 在 主世界 的 5557 39 305
+RoronoaZorozhang 在 主世界 的 -1370 63 1082
+ghaoge 在 主世界 的 -1462 65 1054
+There are several suitable screens on:
+	24939.MainlandLOC	(Detached)
+	23785.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-17 19:40:03] MobSwitch Threshold
+Noob_Steve has the following entity data: 0There are 5 of a max 50 players online: Nine_shallow, Noob_Steve, ghaoge, wyyfs, CH3COOC6H4COOH
+are 在 主世界 的 entity was foun
+Nine_shallow 在 主世界 的 9545 68 -5717
+Noob_Steve 在 主世界 的 -3920 9 -94
+ghaoge 在 主世界 的 -1461 70 1055
+wyyfs 在 主世界 的 -12497 68 26964
+CH3COOC6H4COOH 在 主世界 的 24587 22 776
+There are several suitable screens on:
+	13619.MainlandLOC	(Detached)
+	12685.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-18 22:46:02] MobSwitch Threshold
+God_of_Cold has the following entity data: [9601.823458929983d, 71.0d, 8922.536622651312d]There are 5 of a max 50 players online: wyyfs, Mouri_Naruto, God_of_Cold, Nine_shallow, ghaoge
+wyyfs 在 主世界 的 -12546 62 26931
+Mouri_Naruto 在 主世界 的 5721 92 379
+God_of_Cold 在 主世界 的 9601 71 8922
+Nine_shallow 在 主世界 的 9547 64 -5731
+ghaoge 在 主世界 的 -1461 70 1051
+There are several suitable screens on:
+	31051.MainlandLOC	(Detached)
+	30089.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-23 20:17:28] MobSwitch Threshold
+There are 6 of a max 50 players online: JACKAYAMI, Nine_shallow, Mouri_Naruto, RoronoaZorozhang, wyyfs, Flack_Tak
+JACKAYAMI 在 主世界 的 -1287 63 1133
+Nine_shallow 在 主世界 的 9775 97 -5521
+Mouri_Naruto 在 主世界 的 5710 64 382
+RoronoaZorozhang 在 主世界 的 -1450 64 1051
+wyyfs 在 主世界 的 -12480 68 26923
+Flack_Tak 在 主世界 的 12989 64 -1930
+[2020-07-24 19:49:24] MobSwitch Threshold
+There are 7 of a max 50 players online: Anchoret, RoronoaZorozhang, EnakStar, wyyfs, Wingkhei, yery_xiao, JACKAYAMI
+Anchoret 在 末地 的 -1054 82 15
+RoronoaZorozhang 在 主世界 的 -1459 65 1063
+EnakStar 在 主世界 的 10209 63 6568
+wyyfs 在 主世界 的 -12518 67 26892
+Wingkhei 在 主世界 的 -3960 19 -1982
+yery_xiao 在 主世界 的 -2392 77 -4404
+JACKAYAMI 在 主世界 的 -1453 64 1051
+[2020-07-25 23:18:02] MobSwitch Threshold
+RoronoaZorozhang has the following entity data: [-1318.0587951281348d, 69.0d, 1068.856787621638d]There are 14 of a max 50 players online: RoronoaZorozhang, yery_xiao, JSker9, VictorYep, _Balder, Nikkeru_, WangerOrange, Aschin, Skyzhou, CCS_Covenant, ghaoge, xz1z1z1z1z, wyyfs, TanBuHouRin
+RoronoaZorozhang 在 主世界 的 -1318 69 1068
+yery_xiao 在 主世界 的 entity ata: 0
+JSker9 在 主世界 的 10462 65 8759
+Nikkeru_ 在 主世界 的 entity ata: 0
+WangerOrange 在 地狱 的 2783 6 165
+Skyzhou 在 地狱 的 -965 62 1302
+CCS_Covenant 在 主世界 的 24027 18 605
+xz1z1z1z1z 在 主世界 的 9926 63 8327
+wyyfs 在 主世界 的 -12537 63 26909
+TanBuHouRin 在 主世界 的 9923 63 8327
+There are several suitable screens on:
+	21285.MainlandLOC	(Detached)
+	20089.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-28 12:44:02] MobSwitch Threshold
+_Balder has the following entity data: -1There are 3 of a max 50 players online: _Balder, TanBuHouRin, yery_xiao
+_Balder 在 地狱 的 1167 129 680
+TanBuHouRin 在 主世界 的 10425 65 8740
+yery_xiao 在 主世界 的 10255 72 6469
+There are several suitable screens on:
+	21077.MainlandLOC	(Detached)
+	20385.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-07-28 21:10:05] MobSwitch Threshold
+There are 9 of a max 50 players online: Mars_YWF, RoronoaZorozhang, TanBuHouRin, JACKAYAMI, JSker9, ghaoge, XiaoYou_QAQ, stardust_falling, Wingkhei
+Mars_YWF 在 主世界 的 -2453 72 -4888
+RoronoaZorozhang 在 主世界 的 -1322 64 1059
+TanBuHouRin 在 主世界 的 10495 64 8797
+JACKAYAMI 在 主世界 的 10329 62 6817
+JSker9 在 主世界 的 10327 62 6821
+ghaoge 在 主世界 的 10329 62 6815
+XiaoYou_QAQ 在 地狱 的 -1032 128 -457
+stardust_falling 在 地狱 的 1877 7 4
+Wingkhei 在 主世界 的 -2320 70 -4647
+[2020-07-29 13:15:08] MobSwitch Threshold
+There are 8 of a max 50 players online: zwh_china, _Balder, lindaxia, Matrix_Cain, yery_xiao, VictorYep, Yuezheng_Ling, wyyfs
+zwh_china 在 主世界 的 -10678 63 27862
+_Balder 在 主世界 的 10454 69 8702
+lindaxia 在 主世界 的 -6890 64 -7014
+Matrix_Cain 在 末地 的 101 49 0
+yery_xiao 在 主世界 的 -7915 88 -3909
+VictorYep 在 主世界 的 -2414 72 -4516
+Yuezheng_Ling 在 主世界 的 -8771 30 28871
+wyyfs 在 主世界 的 -12535 67 26902
+[2020-08-02 17:12:05] MobSwitch Threshold
+There are 10 of a max 50 players online: AUTUMNRAIN1, WangerOrange, RoronoaZorozhang, TanBuHouRin, Bamboopillow, JSker9, JACKAYAMI, _LiangFen_, MOFDBJ, sj1900
+AUTUMNRAIN1 在 主世界 的 10023 19 6068
+WangerOrange 在 主世界 的 -19882 72 -4814
+RoronoaZorozhang 在 主世界 的 -18968 63 -3166
+TanBuHouRin 在 主世界 的 10217 101 5653
+Bamboopillow 在 主世界 的 -137 63 315
+JSker9 在 主世界 的 10449 152 6855
+JACKAYAMI 在 主世界 的 -19888 72 -4811
+_LiangFen_ 在 地狱 的 533 5 93
+MOFDBJ 在 地狱 的 95 30 -424
+sj1900 在 地狱 的 103 37 -423
+[2020-08-02 20:04:47] MobSwitch Threshold
+There are 9 of a max 50 players online: Nine_shallow, LabBaxMX, radishx, ghaoge, JACKAYAMI, wyyfs, Blood_evil_, WangerOrange, MOFDBJ
+Nine_shallow 在 主世界 的 10006 5 -5916
+LabBaxMX 在 主世界 的 11352 74 7325
+radishx 在 主世界 的 13376 89 4245
+ghaoge 在 主世界 的 -19890 72 -4802
+JACKAYAMI 在 主世界 的 -19888 72 -4801
+wyyfs 在 主世界 的 -12487 67 26934
+Blood_evil_ 在 主世界 的 -2563 83 -2352
+WangerOrange 在 主世界 的 -18953 69 -3213
+MOFDBJ 在 主世界 的 9571 70 -5523
+[2020-08-02 23:56:33] MobSwitch Threshold
+There are 5 of a max 50 players online: Nine_shallow, AUTUMNRAIN1, TanBuHouRin, RoronoaZorozhang, JACKAYAMI
+Nine_shallow 在 末地 的 -3051 131 -54690
+AUTUMNRAIN1 在 主世界 的 10662 11 6180
+TanBuHouRin 在 主世界 的 9979 121 5495
+RoronoaZorozhang 在 主世界 的 -19842 63 -4830
+JACKAYAMI 在 地狱 的 -1543 140 -296
+[2020-08-04 23:57:38] MobSwitch Threshold
+There are 9 of a max 50 players online: LabBaxMX, yery_xiao, TanBuHouRin, Nine_shallow, JACKAYAMI, WangerOrange, wyyfs, KilitoKing, RoronoaZorozhang
+LabBaxMX 在 主世界 的 11742 89 8598
+yery_xiao 在 主世界 的 -5499 204 -4491
+TanBuHouRin 在 主世界 的 10082 64 5676
+Nine_shallow 在 末地 的 364 1 0
+JACKAYAMI 在 主世界 的 -19889 72 -4800
+WangerOrange 在 主世界 的 entity ata: 0
+wyyfs 在 主世界 的 -12652 64 26922
+KilitoKing 在 主世界 的 entity ata: 0
+RoronoaZorozhang 在 主世界 的 -19837 63 -4835
+[2020-08-05 11:29:24] MobSwitch Threshold
+There are 6 of a max 50 players online: AUTUMNRAIN1, Create_cat, ghaoge, Nyan_Ccat, yery_xiao, KilitoKing
+AUTUMNRAIN1 在 主世界 的 11782 90 8590
+Create_cat 在 主世界 的 10140 69 6350
+ghaoge 在 主世界 的 -18857 70 -3205
+Nyan_Ccat 在 主世界 的 10142 69 6350
+yery_xiao 在 主世界 的 -5501 202 -4462
+KilitoKing 在 主世界 的 5478 36 359
+[2020-08-05 15:39:45] MobSwitch Threshold
+There are 7 of a max 50 players online: dxsc, AUTUMNRAIN1, LabBaxMX, Ntorm_border, yery_xiao, Yuezheng_Ling, TanBuHouRin
+dxsc 在 地狱 的 933 11 -790
+AUTUMNRAIN1 在 主世界 的 11727 89 8597
+LabBaxMX 在 主世界 的 10266 69 7944
+Ntorm_border 在 主世界 的 -1468 73 -4718
+yery_xiao 在 主世界 的 entity ata: 0
+Yuezheng_Ling 在 主世界 的 -10660 69 27869
+TanBuHouRin 在 主世界 的 10231 61 5664
+[2020-08-05 15:40:21] MobSwitch Threshold
+There are 7 of a max 50 players online: dxsc, AUTUMNRAIN1, LabBaxMX, Ntorm_border, yery_xiao, Yuezheng_Ling, TanBuHouRin
+dxsc 在 地狱 的 934 11 -791
+AUTUMNRAIN1 在 主世界 的 11727 88 8599
+LabBaxMX 在 主世界 的 10266 69 7944
+Ntorm_border 在 主世界 的 -1469 72 -4687
+yery_xiao 在 主世界 的 -5501 204 -4461
+Yuezheng_Ling 在 主世界 的 -10662 70 27873
+TanBuHouRin 在 主世界 的 10229 65 5657
+[2020-08-06 16:02:43] MobSwitch Threshold
+There are 5 of a max 50 players online: TanBuHouRin, Blood_evil_, AUTUMNRAIN1, dxsc, ghaoge
+TanBuHouRin 在 主世界 的 10207 84 5676
+Blood_evil_ 在 主世界 的 -2572 63 -2371
+AUTUMNRAIN1 在 主世界 的 11773 89 8600
+dxsc 在 主世界 的 9759 64 -5542
+ghaoge 在 主世界 的 -19002 64 -3468
+[2020-08-06 22:36:42] MobSwitch Threshold
+The debug profiler hasn't started
+wyyfs 在 主世界 的 -12475 63 26937
+yery_xiao 在 主世界 的 -1809 79 -4202
+AUTUMNRAIN1 在 主世界 的 9328 64 5437
+[2020-08-06 23:30:18] MobSwitch Threshold
+The debug profiler hasn't started
+AUTUMNRAIN1 在 主世界 的 11761 87 8609
+wyyfs 在 主世界 的 -12601 63 26939
+TanBuHouRin 在 末地 的 364 1 0
+ghaoge 在 主世界 的 -18918 137 -3287
+yery_xiao 在 主世界 的 -5490 203 -4438
+China_ZhanChen 在 主世界 的 -12551 63 26934
+[2020-08-07 18:33:23] MobSwitch Threshold
+There are 2 of a max 50 players online: ghaoge, AUTUMNRAIN1
+ghaoge 在 主世界 的 -19012 72 -3460
+AUTUMNRAIN1 在 主世界 的 10165 63 6525
+[2020-08-07 20:35:41] MobSwitch Threshold
+There are 5 of a max 50 players online: God_of_Cold, radishx, TanBuHouRin, stardust_falling, AUTUMNRAIN1
+God_of_Cold 在 主世界 的 9553 69 8908
+radishx 在 主世界 的 13396 68 4260
+TanBuHouRin 在 主世界 的 10111 70 6417
+stardust_falling 在 地狱 的 1994 5 95
+AUTUMNRAIN1 在 主世界 的 entity ata: -1
+[2020-08-08 10:30:09] MobSwitch Threshold
+There are 2 of a max 50 players online: dxsc, AUTUMNRAIN1
+dxsc 在 主世界 的 8381 24 -6464
+AUTUMNRAIN1 在 主世界 的 10096 66 6463
+[2020-08-08 14:23:31] MobSwitch Threshold
+There are 6 of a max 50 players online: JiSuhonghong, TanBuHouRin, dxsc, ghaoge, AUTUMNRAIN1, WangerOrange
+JiSuhonghong 在 主世界 的 12441 64 -368
+TanBuHouRin 在 地狱 的 1168 130 686
+dxsc 在 主世界 的 8669 27 -11270
+ghaoge 在 主世界 的 -18823 103 -2971
+AUTUMNRAIN1 在 主世界 的 11756 87 8596
+WangerOrange 在 主世界 的 -18965 63 -3165
+[2020-08-09 17:24:12] MobSwitch Threshold
+There are 6 of a max 50 players online: TanBuHouRin, China_ZhanChen, Thzz0, The_lineal, hjqsss, bakaEC
+TanBuHouRin 在 主世界 的 10157 83 5495
+China_ZhanChen 在 主世界 的 -12561 63 26949
+Thzz0 在 主世界 的 10447 152 6840
+The_lineal 在 主世界 的 14154 29 10590
+hjqsss 在 主世界 的 10030 64 6616
+bakaEC 在 主世界 的 9734 44 5253
+[2020-08-09 18:37:54] MobSwitch Threshold
+The debug profiler hasn't started
+_Balder 在 主世界 的 11770 93 8583
+The_lineal 在 主世界 的 5499 77 346
+0xAA55 在 主世界 的 5579 64 231
+Thzz0 在 主世界 的 11734 89 8598
+creeperAB 在 主世界 的 -626 128 177
+Mirages_Aqua 在 地狱 的 -26 115 27
+[2020-08-11 17:04:57] MobSwitch Threshold
+There are 3 of a max 50 players online: TanBuHouRin, AUTUMNRAIN1, bakaEC
+TanBuHouRin 在 主世界 的 10145 66 5605
+AUTUMNRAIN1 在 主世界 的 11759 88 8577
+bakaEC 在 末地 的 364 1 -0
+[2020-08-11 21:20:42] MobSwitch Threshold
+There are 9 of a max 50 players online: RoronoaZorozhang, AUTUMNRAIN1, TanBuHouRin, yery_xiao, WangerOrange, JSker9, hoielamm, Mars_YWF, Skyzhou
+RoronoaZorozhang 在 主世界 的 -1584 10 1055
+AUTUMNRAIN1 在 主世界 的 9661 51 5358
+TanBuHouRin 在 主世界 的 10024 124 5436
+yery_xiao 在 主世界 的 -7936 64 -3909
+WangerOrange 在 主世界 的 -1677 11 1058
+JSker9 在 地狱 的 1170 128 686
+hoielamm 在 末地 的 364 1 0
+Mars_YWF 在 主世界 的 -3430 39 -5414
+Skyzhou 在 主世界 的 -5501 202 -4472
+[2020-08-15 18:56:10] MobSwitch Threshold
+There are 5 of a max 50 players online: TanBuHouRin, Mars_YWF, LabBaxMX, wyyfs, yery_xiao
+TanBuHouRin 在 主世界 的 10446 152 6859
+Mars_YWF 在 主世界 的 -2486 72 -4854
+LabBaxMX 在 主世界 的 11377 72 7378
+wyyfs 在 主世界 的 -12644 66 26885
+yery_xiao 在 主世界 的 -5508 204 -4441
+[2020-08-16 09:11:09] MobSwitch Threshold
+There are 8 of a max of 50 players online: JiSuhonghong, Du_xuewu, MC_SRIN, zhaixianyu, _Balder, rui_zi_, kokilu, sharknakiriayame
+[2020-08-16 18:54:18] MobSwitch Threshold
+There are 10 of a max of 50 players online: Nine_shallow, ghaoge, MOFDBJ, RoronoaZorozhang, Evan704, SoulFkeR, LabBaxMX, JiSuhonghong, XiaoYou_0w0, _Balder
+[2020-08-16 21:40:08] MobSwitch Threshold
+JACKAYAMI has the following entity data: minecraft:overworldThere are 15 of a max of 50 players online: JiSuhonghong, MX_Again, Nya_Vanilla, kokilu, LabBaxMX, SoulFkeR, _Balder, ghaoge, bakaEC, RoronoaZorozhang, WangerOrange, TanBuHouRin, HK_Journalist, FFFZi_, JACKAYAMI
+[2020-08-16 23:28:51] MobSwitch Threshold
+There are 10 of a max of 50 players online: JACKAYAMI, TanBuHouRin, Mars_YWF, sharknakiriayame, ghaoge, KilitoKing, WangerOrange, RoronoaZorozhang, yery_xiao, VictorYep
+[2020-08-17 12:58:17] MobSwitch Threshold
+There are 10 of a max of 50 players online: AUTUMNRAIN1, LabBaxMX, ghaoge, SoulFkeR, TanBuHouRin, JACKAYAMI, _Balder, windtraveler, VictorYep, KilitoKing
+[2020-08-18 14:27:10] MobSwitch Threshold
+There are 8 of a max of 50 players online: TanBuHouRin, yery_xiao, Wingkhei, ghaoge, Blood_evil_, wyyfs, LabBaxMX, dxsc
+[2020-08-18 19:24:00] Restart Threshold
+The debug profiler hasn't started
+There are several suitable screens on:
+	1891.MainlandLOC	(Detached)
+	1510.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-08-19 15:34:27] MobSwitch Threshold
+There are 10 of a max of 50 players online: AUTUMNRAIN1, Mars_YWF, TanBuHouRin, cloudxin, Soml0_wSTAL, yery_xiao, Wingkhei, Blood_evil_, kokilu, ghaoge
+[2020-08-19 20:50:19] MobSwitch Threshold
+There are 10 of a max of 50 players online: MOFDBJ, RoronoaZorozhang, yery_xiao, _Balder, TanBuHouRin, JiSuhonghong, AUTUMNRAIN1, ghaoge, kilitoIsacc, belliveaud1
+[2020-08-19 23:13:07] Restart Threshold
+There are 15 of a max of 50 players online: ghaoge, TanBuHouRin, Skyzhou, MOFDBJ, night_deng, yery_xiao, Blood_evil_, blockwill1000567, DaXinWuDi, Nya_Vanilla, Axlsandwich, Mars_YWF, Nine_shallow, AUTUMNRAIN1, Da_Ying_Tao
+[2020-08-20 10:32:37] MobSwitch Threshold
+There are 5 of a max of 50 players online: DaXinWuDi, ghaoge, JiSuhonghong, AUTUMNRAIN1, Ntorm_border
+[2020-08-20 21:00:04] Restart Threshold
+The debug profiler hasn't started
+There are several suitable screens on:
+	9646.MainlandLOC	(Detached)
+	8173.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-08-20 23:12:05] Restart Threshold
+blockwill1000567 has the following entity data: [1449.8374775482455d, 128.38911968595968d, 980.6986707267677d]There are 14 of a max of 50 players online: RoronoaZorozhang, TanBuHouRin, yery_xiao, Nine_shallow, ghaoge, Skyzhou, blockwill1000567, Nya_Vanilla, AUTUMNRAIN1, WangerOrange, VictorYep, RIriTYANN, DaXinWuDi, cloudxin
+There are several suitable screens on:
+	21890.MainlandLOC	(Detached)
+	19575.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-08-21 21:14:06] Restart Threshold
+AUTUMNRAIN1 has the following entity data: [10913.744717937396d, 98.0d, 6255.775673160361d]There are 13 of a max of 50 players online: Blood_evil_, yery_xiao, Mars_YWF, RoronoaZorozhang, TanBuHouRin, DaXinWuDi, _Balder, little_fly233, Nya_Vanilla, VictorYep, ghaoge, AUTUMNRAIN1, Skyzhou
+There are several suitable screens on:
+	22409.MainlandLOC	(Detached)
+	19486.MainlandLOC	(Detached)
+Use -S to specify a session.
+[2020-08-22 23:00:30] MobSwitch Threshold
+There are 11 of a max of 50 players online: Mars_YWF, TanBuHouRin, little_fly233, AUTUMNRAIN1, ghaoge, kokilu, yery_xiao, Skyzhou, Matrix_Cain, VictorYep, Nya_Vanilla
+[2020-08-23 13:42:13] MobSwitch Threshold
+There are 6 of a max of 50 players online: AUTUMNRAIN1, RoronoaZorozhang, little_fly233, TanBuHouRin, DMKS_Alter, kokilu
+[2020-08-23 17:48:33] MobSwitch Threshold
+There are 10 of a max of 50 players online: TanBuHouRin, VictorYep, JSker9, Nya_Vanilla, _Balder, little_fly233, MC_SRIN, DMKS_Alter, Matrix_Cain, kokilu
+[2020-08-23 22:41:36] MobSwitch Threshold
+There are 5 of a max of 50 players online: TanBuHouRin, AUTUMNRAIN1, Create_cat, WangerOrange, kokilu
+[2020-08-24 10:20:26] MobSwitch Threshold
+There are 3 of a max of 50 players online: 0xAA55, AUTUMNRAIN1, MOFDBJ
+[2020-08-24 11:38:35] MobSwitch Threshold
+There are 5 of a max of 50 players online: AUTUMNRAIN1, 0xAA55, TanBuHouRin, JSker9, Skyzhou
+[2020-08-24 16:31:58] MobSwitch Threshold
+There are 5 of a max of 50 players online: AUTUMNRAIN1, TanBuHouRin, Nine_shallow, Kaga_MC, Memory_eastsea
+[2020-08-25 18:01:30] MobSwitch Threshold
+There are 5 of a max of 50 players online: Nine_shallow, Du_xuewu, rui_zi_, ghaoge, wyyfs
+[2020-09-01 10:13:55] Restart Threshold
+There are 4 of a max of 50 players online: LabBaxMX, Happy_Dan233, ghaoge, wyyfs
+[2020-09-06 15:27:08] MobSwitch Threshold
+There are 4 of a max of 50 players online: wyyfs, yery_xiao, China_ZhanChen, JiSuhonghong
+[2020-09-18 21:21:44] Restart Threshold
+There are 5 of a max of 50 players online: zwh_china, Matrix_Cain, ghaoge, wyyfs, shadowUnicornx
+[2020-09-19 17:32:51] Restart Threshold
+There are 3 of a max of 50 players online: TanBuHouRin, China_ZhanChen, wyyfs

@@ -1,0 +1,16 @@
+#!/bin/sh
+DIR=`cd "$( dirname "$0" )" && pwd`
+RAWDIR=`cd $DIR/.. && pwd`
+SCREEN_NAME=`cat $RAWDIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SAVE_NAME=`cat $RAWDIR/ENV | grep SAVE_NAME | awk '{print $3}'`
+while true
+do
+	inotifywait -e modify $RAWDIR/Server/logs/latest.log
+	if [ $? == 0 ] ; then
+		tail -1 $RAWDIR/Server/logs/latest.log > $DIR/latest.log
+		ls -l $DIR | grep .sh | awk '{print $NF}' | while read SHELL
+		do
+			sh $DIR/$SHELL $RAWDIR
+		done
+	fi
+done

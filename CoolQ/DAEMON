@@ -1,0 +1,20 @@
+#!/bin/sh
+DIR=`cd "$( dirname "$0" )" && pwd`
+RAWDIR=`cd $DIR/.. && pwd`
+SDIR=`cd $RAWDIR/Server && pwd`
+while true
+do
+	if [ "$OLD" = "" ] ; then
+		OLD=`ls --full-time $DIR/CQFile/exgr.txt | awk '{print $6,$7}'`
+	fi
+	NEW=`ls --full-time $DIR/CQFile/exgr.txt | awk '{print $6,$7}'`
+	if [ "$NEW" != "$OLD" ] ; then
+		OLD=$NEW
+		tail -1 $DIR/CQFile/exgr.txt > $DIR/CQFile/exg.txt
+		ls -l $DIR | grep .sh | awk '{print $NF}' | while read SHELL
+		do
+			sh $DIR/$SHELL
+		done
+	fi
+	sleep 0.01
+done
