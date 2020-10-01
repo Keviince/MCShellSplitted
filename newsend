@@ -1,0 +1,31 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+PORT=`cat $DIR/ENV | grep RCON_PORT | awk '{print $3}'`
+PASS=`cat $DIR/ENV | grep RCON_PASS | awk '{print $3}'`
+#if [ -f $DIR/.TMP/SENDING ] ; then
+#	echo Error Error Error Error Error Error Error Error Error Error Error Error Error 
+#	exit
+#fi
+#touch $DIR/.TMP/SENDING
+#读取所有参数
+for ONE in $*
+do
+	if [ "$STR" = "" ] ; then
+		STR=$ONE
+		continue
+	fi
+	STR=$STR" "$ONE
+done
+#$DIR/Dependencies/py3 $DIR/Dependencies/sendcommand/sendcommand.py $PORT $PASS "$STR"
+echo $STR > $DIR/Dependencies/sendcommand/input.txt
+#inotifywait -e create $DIR/Dependencies/sendcommand/DONE/
+while true
+do
+	if [ -f $DIR/Dependencies/sendcommand/DONE ]
+	then
+		head -1 $DIR/Dependencies/sendcommand/output.txt
+		rm -f $DIR/Dependencies/sendcommand/DONE
+		break
+	fi
+done
+#rm -f $DIR/.TMP/SENDING

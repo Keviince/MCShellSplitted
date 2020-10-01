@@ -1,0 +1,44 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+SCREEN_NAME=`cat $DIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SCREEN_NAMERCON=$SCREEN_NAME"RCON"
+screen -ls | grep $SCREEN_NAMERCON >> /dev/null
+if [ $? -ne 0 ] ; then
+	echo Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1 Error1
+	exit
+fi
+if [ -f $DIR/.TMP/SENDING ] ; then
+	while true
+	do
+		if [ -f $DIR/.TMP/SENDING ] ; then
+			break
+		else
+			continue
+		fi
+	done
+#	sleep 0.2
+#	if [ -f $DIR/.TMP/SENDING ] ; then
+#		echo Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2 Error2
+#		killall -q py3
+#		rm -f $DIR/.TMP/SENDING
+#		exit
+#	fi
+fi
+#读取所有参数
+for ONE in $*
+do
+	if [ "$STR" = "" ] ; then
+		STR=$ONE
+		continue
+	fi
+	STR=$STR" "$ONE
+done
+touch $DIR/.TMP/SENDING
+#echo $STR > $DIR/Dependencies/sendcommand/in/input.txt & timeout 0.2s inotifywait -e modify -qq $DIR/Dependencies/sendcommand/out/output.txt
+echo $STR > $DIR/Dependencies/sendcommand/in/input.txt & inotifywait -e modify -qq $DIR/Dependencies/sendcommand/out/output.txt
+if [ $? -eq 0 ] ; then
+	head -1 $DIR/Dependencies/sendcommand/out/output.txt
+else
+	echo Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3 Error3
+fi
+rm -f $DIR/.TMP/SENDING

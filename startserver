@@ -1,0 +1,7 @@
+#!/bin/sh
+RAWDIR=`cd "$( dirname "$0" )" && pwd`
+SCREEN_NAME=`cat $RAWDIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SDIR=`cd $RAWDIR/Server && pwd`
+DDIR=`cd $RAWDIR/Dependencies && pwd`
+screen -wipe >> /dev/null
+screen -dmSU $SCREEN_NAME $DDIR/serverloop.sh

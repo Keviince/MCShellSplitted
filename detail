@@ -1,0 +1,32 @@
+#!/bin/sh
+#在系统内直接使用来获取详细信息
+DIR=$( cd "$( dirname "$0" )" && pwd )
+#如果已有查询进程则退出该脚本
+#if [ -f $DIR/.TMP/TPSBUSY ] ; then 
+#	exit
+#fi
+#建立文件防止重复查询
+#touch $DIR/.TMP/TPSBUSY
+sleep 0.1
+#将“正在查询，请稍后……”写入指定文件第一行
+echo 正在查询，请稍后…… > $DIR/.TMP/detail.log
+#开始DEBUG
+$DIR/send debug start >> /dev/null
+sleep 1
+#停止DEBUG并获取TPS
+RESULT=`$DIR/send debug stop | awk '{print $10}' | sed 's/(//'` 
+#获取内存占用率
+MEM=`free -m | awk 'NR==2{printf "%.2f%%\n",$3*100/$2 }'`
+#获取CPU负载
+LOAD=`cat /proc/loadavg | awk '{print $1}'`
+#获取网卡流量信息（根据情况自己修改行号）
+RX=`/sbin/ifconfig | grep packets | sed -n 1p | awk '{print $6$7}' | sed 's/.//' | sed 's/.$//'`
+TX=`/sbin/ifconfig | grep packets | sed -n 2p | awk '{print $6$7}' | sed 's/.//' | sed 's/.$//'`
+#如果加参数only则只将TPS写入指定文件第一行，若无参数则全部写入
+if [ "$1" = "tps" ] ; then
+	echo $RESULT >> $DIR/.TMP/detail.log
+else
+	echo 当前TPS为$RESULT/20 前一分钟负载为$LOAD 内存占用率为$MEM 传入数据$RX 传出数据$TX >> $DIR/.TMP/detail.log
+fi
+#rm $DIR/.TMP/TPSBUSY
+tail -1 $DIR/.TMP/detail.log

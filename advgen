@@ -1,0 +1,97 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+SAVE_NAME=`cat $DIR/ENV | grep SAVE_NAME | awk '{print $3}'`
+echo "Advancement Name :"
+read NAME
+echo "Advancement Dimension :"
+echo "0 For OverWorld , 1 For TheNether , 2 For TheEnd"
+read DIMENSIONRAW
+if [ "$DIMENSIONRAW" = "0" ] ; then
+	DIMENSION="overworld"
+fi
+if [ "$DIMENSIONRAW" = "1" ] ; then
+	DIMENSION="the_nether"
+fi
+if [ "$DIMENSIONRAW" = "2" ] ; then
+	DIMENSION="the_end"
+fi
+echo "Advancement Title :"
+read TITLE
+echo "Advancement Description :"
+read DESCRIPTION
+echo "Advancement Icon (Default grass_block) :"
+echo "0 For grass_block , 2 For end_stone"
+read ICONRAW
+echo "Advancement Position :"
+echo "Xmin Xmax Ymin Ymax Zmin Zmax"
+read POSITION
+XMIN=`echo $POSITION | awk '{print $1}'`
+XMAX=`echo $POSITION | awk '{print $2}'`
+YMIN=`echo $POSITION | awk '{print $3}'`
+YMAX=`echo $POSITION | awk '{print $4}'`
+ZMIN=`echo $POSITION | awk '{print $5}'`
+ZMAX=`echo $POSITION | awk '{print $6}'`
+echo "Advancement Parent :"
+read PARENT
+echo "Advancement Folder (Default exmainland) :"
+echo "Available : exmainland endshop dlt bc sljl mfc llsj bhxq 53dawns"
+read FOLDER
+if [ "$FOLDER" = "" ] ; then
+	FOLDER="exmainland"
+fi
+if [ "$ICONRAW" = "" ] ; then
+	ICON="grass_block"
+fi
+if [ "$ICONRAW" = "0" ] ; then
+	ICON="grass_block"
+fi
+if [ "$ICONRAW" = "1" ] ; then
+	ICON="end_stone"
+fi
+cat >> $DIR/Server/$SAVE_NAME/datapacks/$FOLDER"_datapack"/data/exmainland/advancements/$NAME.json <<EOF
+{
+    "criteria": {
+        "L": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "$DIMENSION",
+                "position": {
+                    "x": {
+                        "min": $XMIN,
+                        "max": $XMAX
+                    },
+                    "y": {
+                        "min": $YMIN,
+                        "max": $YMAX
+                    },
+                    "z": {
+                        "min": $ZMIN,
+                        "max": $ZMAX
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "title": {
+            "text": "$TITLE"
+        },
+        "description": {
+            "text": "$DESCRIPTION"
+        },
+        "hidden": true,
+        "icon": {
+            "item": "minecraft:$ICON"
+        }
+    },
+    "requirements": [
+        [
+            "L"
+        ]
+    ],
+    "parent": "exmainland:$PARENT"
+}
+EOF

@@ -1,0 +1,39 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+RAWDIR=$( cd "$( dirname "$0" )" && pwd )
+PDIR=`cd $DIR/Dependencies && pwd`
+MBS_ID=`cat $DIR/ENV | grep MBS_ID | awk '{print $3}'`
+SCREEN_NAME=`cat $DIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SCREEN_NAMEMBS=$SCREEN_NAME"MBS"
+BOT_MODE=`cat $RAWDIR/ENV | grep BOT_MODE | awk '{print $3}'`
+SERVER_PORT=`cat $RAWDIR/ENV | grep SERVER_PORT | awk '{print $3}'`
+SERVER_ADDR=`cat $RAWDIR/ENV | grep SERVER_ADDR | awk '{print $3}'`
+#SERVER_HOST=$SERVER_ADDR":"$SERVER_PORT
+SERVER_HOST="10.1.2.3:25565"
+if [ "$BOT_MODE" = "ONLINE" ] ; then
+	MBS_VAR=`cat $RAWDIR/ENV | grep ONLINE_VAR | awk '{ $1="" ; $2="" ; print $0 }' | sed 's/^.//' | sed 's/_SERVER_HOST/'${SERVER_HOST}'/g'`
+else
+	MBS_VAR=`cat $RAWDIR/ENV | grep OFFLINE_VAR | awk '{ $1="" ; $2="" ; print $0 }' | sed 's/^.//' | sed 's/_SERVER_HOST/'${SERVER_HOST}'/g' | sed 's/_NAME/'${MBS_ID}'/g'`
+fi
+if [ "$1" = "" ] ; then
+	echo "Type \"mobswitch on\" To Enable MobSwitch"
+	echo "Type \"mobswitch off\" To Disable MobSwitch"
+	exit
+fi
+if [ "$1" = "on" ] ; then
+	sed -i s'/MBS_STATUS = OFF/MBS_STATUS = ON/g' $RAWDIR/ENV
+	killall py2
+	screen -ls | grep $SCREEN_NAMEMBS | sed 's/\./ /g' | awk '{print $1}' | while read PID
+	do
+		kill $PID
+	done
+	screen -dmSU $SCREEN_NAMEMBS $PDIR/py2 $PDIR/pyCraft/start.py $MBS_VAR
+fi
+if [ "$1" = "off" ] ; then
+	sed -i s'/MBS_STATUS = ON/MBS_STATUS = OFF/g' $RAWDIR/ENV
+	killall py2
+	screen -ls | grep $SCREEN_NAMEMBS | sed 's/\./ /g' | awk '{print $1}' | while read PID
+	do
+		kill $PID
+	done
+fi

@@ -1,0 +1,7 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+RESULT=`$DIR/send list`
+if [ "$1" = "only" ] ; then
+        RESULT=`echo $RESULT | awk '{print $3}'`
+fi
+echo $RESULT

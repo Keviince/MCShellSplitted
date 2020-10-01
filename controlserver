@@ -1,0 +1,5 @@
+#!/bin/sh
+RAWDIR=`cd "$( dirname "$0" )" && pwd`
+SCREEN_NAME=`cat $RAWDIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+screen -xU $SCREEN_NAME
+clear

@@ -1,0 +1,35 @@
+#!/bin/sh
+#启动日备份
+DIR=$( cd "$( dirname "$0" )" && pwd )
+SCREEN_NAME=`cat $DIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+if [ "$1" = "" ] ; then
+	echo "Type \"dobackup day\" To Do DayBack"
+	echo "Type \"dobackup month\" To Do MonthBack"
+fi
+if [ "$1" = "day" ] ; then
+	SCREEN_NAMEBACK=$SCREEN_NAME"DAY"
+	screen -ls | grep $SCREEN_NAMEBACK >> /dev/null
+	if [ $? -eq 0 ] ; then
+		echo "There Is Currently A DayBack Running !"
+		exit
+	fi
+	screen -dmSU $SCREEN_NAMEBACK $DIR/Backup/dayback.sh
+fi
+if [ "$1" = "month" ] ; then
+	SCREEN_NAMEBACK=$SCREEN_NAME"MONTH"
+	screen -ls | grep $SCREEN_NAMEBACK >> /dev/null
+	if [ $? -eq 0 ] ; then
+		echo "There Is Currently A MonthBack Running !"
+		exit
+	fi
+	screen -dmSU $SCREEN_NAMEBACK $DIR/Backup/monthback.sh
+fi
+if [ "$1" = "playerdata" ] ; then
+	SCREEN_NAMEBACK=$SCREEN_NAME"PLAYER"
+	screen -ls | grep $SCREEN_NAMEBACK >> /dev/null
+	if [ $? -eq 0 ] ; then
+		echo "There Is Currently A PlayerDataBack Running !"
+		exit
+	fi
+	screen -dmSU $SCREEN_NAMEBACK $DIR/Backup/playerdataback.sh
+fi

@@ -1,0 +1,44 @@
+#!/bin/sh
+DIR=$( cd "$( dirname "$0" )" && pwd )
+SENDER=`cat $DIR/ENV | grep SENDER | awk '{print $3}'`
+SCREEN_NAME=`cat $DIR/ENV | grep SCREEN_NAME | awk '{print $3}'`
+SCREEN_NAMERCON=$SCREEN_NAME"RCON"
+rm -f $DIR/Server/.STOP
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] Our Server Will Restart In 10 Seconds\"}" >> /dev/null
+echo "[$SENDER] Our Server Will Restart In 10 Seconds"
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 我们的服务器将在 10 秒后重启，请大家做好准备！\"}" >> /dev/null
+echo "[$SENDER] 我们的服务器将在 10 秒后重启，请大家做好准备！"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 10\"}" >> /dev/null
+echo "[$SENDER] 10"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 9\"}" >> /dev/null
+echo "[$SENDER] 9"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 8\"}" >> /dev/null
+echo "[$SENDER] 8"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 7\"}" >> /dev/null
+echo "[$SENDER] 7"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 6\"}" >> /dev/null
+echo "[$SENDER] 6"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 5\"}" >> /dev/null
+echo "[$SENDER] 5"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 4\"}" >> /dev/null
+echo "[$SENDER] 4"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 3\"}" >> /dev/null
+echo "[$SENDER] 3"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 2\"}" >> /dev/null
+echo "[$SENDER] 2"
+sleep 1
+$DIR/send "tellraw @a {\"text\":\"[$SENDER] 1\"}" >> /dev/null
+echo "[$SENDER] 1"
+sleep 1
+sed -i s'/MBS_STATUS = ON/MBS_STATUS = OFF/g' $DIR/ENV
+$DIR/send stop
+screen -X -S $SCREEN_NAMERCON quit

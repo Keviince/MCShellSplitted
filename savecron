@@ -1,0 +1,10 @@
+0 2 * * * ~/dobackup day
+0 4 28 * * ~/dobackup month
+* * * * * ~/Dependencies/locationlog.sh
+58 7 * * * ~/Dependencies/settesttime.sh
+* * * * * sleep 10 ; ~/Dependencies/watchdog.sh
+0 8 * * * ~/restartserver
+55 7 * * * ~/Dependencies/5min.sh
+30 * * * * ~/Dependencies/broadcast.sh
+0 0 * * * ~/mobswitsh off
+13 8,10,12,14,16,18,20,22 * * * /home/mainland/Dependencies/testtps.sh

@@ -1,0 +1,35 @@
+﻿#管理员ID，仅限一位
+ADMIN_NAME = Anchoret
+#存档文件夹名称
+SAVE_NAME = Mainland
+#服务器IP
+SERVER_ADDR = 127.0.0.1
+#服务器端口
+SERVER_PORT = 50011
+#RCON端口
+RCON_PORT = 25575
+#RCON密码
+RCON_PASS = EX
+#Screen名称
+SCREEN_NAME = Mainland
+#伪和平模式（AUTO或MANUAL）
+MBS_MODE = AUTO
+#伪和平状态（ON或OFF）
+MBS_STATUS = OFF
+#酷Q的CQHTTP地址
+CQ_HOST = http://10.1.2.7:5700
+#服务器群号，仅限一个
+QQ_GROUP = 339821483
+#命令发送人，如[Server]
+SENDER = 发布姬
+#伪和平挂机ID，仅限一个
+MBS_ID = Nya_Vanilla
+#伪和平以及机器人登录方式（ONLINE或OFFLINE）
+BOT_MODE = ONLINE
+#登录参数，请自行修改，要修改的参数与上方登录方式对应，下划线开头内容请勿修改
+OFFLINE_VAR = -o -s _SERVER_HOST -u _NAME
+ONLINE_VAR = -s _SERVER_HOST -u YourAccount@example.com -p Password
+#服务器JAVA启动参数
+JAVA_VAR = java -Xms12288M -Xmx16384M -jar server.1.16.3.jar nogui
+#根目录
+MAIN_DIC = /home/mainland
