@@ -1,6 +1,8 @@
 <h1 align="center">MC Shell Splitted</h1>  
-<img src="https://img.shields.io/badge/License-GPLv3.0-green.svg" /><img src="https://img.shields.io/badge/Version-v1.2-blue.svg" />  
-
+<p>
+  <img src="https://img.shields.io/badge/License-GPLv3.0-green.svg" />
+  <img src="https://img.shields.io/badge/Version-v1.2-blue.svg" />
+</p>  
 A Series Of Shell Script To Control Minecraft Vanilla Server  
 一系列控制我的世界原版服务器的Shell脚本  
 
