@@ -1,4 +1,4 @@
-# MCShellSplitted
+<h1 align="center">MC Shell Splitted</h1>
 A Series Of Shell Script To Control Minecraft Vanilla Server  
 一系列控制我的世界原版服务器的Shell脚本
 
